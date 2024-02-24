@@ -1,0 +1,14 @@
+<section class="main">
+    <div class="lista-produtos" *ngFor="let produto of produtos">
+        <h1>{{produto.nome}}</h1>
+        <img src ="{{produto.img}}">
+        <p>Descrição:{{produto.descricao}}</p>
+        <p>Categoria:{{produto.categoria}}</p>
+        <div class="comprar">
+            <p class="valor">R${{produto.valor}}</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+
+   
+</section>

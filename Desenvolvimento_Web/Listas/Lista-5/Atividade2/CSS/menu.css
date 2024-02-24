@@ -1,0 +1,23 @@
+.menu{
+    display:inline-block;
+    justify-content:center;
+    width: 100%;
+    
+   
+
+    background-color:rgb(48, 1, 1);
+    
+}
+.item-menu
+{
+    color: rgba(233, 218, 218, 0.829);
+    font-size:30px;
+    margin: 80px 8% 80px;
+    text-decoration:none;
+    font-family:fantasy;
+}
+.item-menu:hover
+{
+    color:rgba(255, 251, 0, 0.527);
+    text-decoration:underline;
+}

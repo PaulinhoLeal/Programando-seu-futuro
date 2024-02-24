@@ -1,0 +1,45 @@
+.main{
+    height: 100%;
+    display: flex;
+    background-color: rgb(155, 183, 196);
+    justify-content: space-around;
+}
+.lista-produtos>h1{
+   text-align: center;
+   
+}
+
+.lista-produtos{
+        border: 2px solid black ;
+        font-weight: 600;
+        width: 25%;
+        height: 60%;
+        margin: 5px;
+}
+.comprar{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.valor{
+    display: flex;
+    background-color: rgb(69, 207, 69);
+    width: 100px;
+    justify-content: center;
+    border-radius: 14px;
+}
+.comprar button{
+    border-radius: 6px;
+    width: 100px;
+    background-color: #ee5454;
+    font-weight: 600;
+}
+.comprar button:hover{
+    background-color: #a96262;
+    width: 102px;
+    height: 24px;
+   
+    
+}
